@@ -59,19 +59,10 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         TextView txtTranslate;
         TextView txt_kor;
 
-
         public ViewHolder(@Nullable View itemView){
             super(itemView);
             txtTranslate = itemView.findViewById(R.id.txtTranslate);
             txt_kor = itemView.findViewById(R.id.txt_kor);
-        }
-
-        public void openWebPage(String url){
-            Uri webPage = Uri.parse(url);
-            Intent i = new Intent(Intent.ACTION_VIEW,webPage);
-            if(i.resolveActivity(context.getPackageManager()) != null){
-                context.startActivity(i);
-            }
         }
     }
 }

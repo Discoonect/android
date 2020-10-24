@@ -1,8 +1,6 @@
 package com.test.naverapi.model;
 
 public class Results {
-
-
     String translatedText;
     String txtKor;
 
