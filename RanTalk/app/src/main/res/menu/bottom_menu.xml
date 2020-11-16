@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/friendList_fragment"
+        android:icon="@drawable/ic_baseline_accessibility_new_24"
+        android:title="friendList" />
+
+    <item
+
+        android:id="@+id/talk_Fragment"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:title="talk" />
+    <item
+        android:id="@+id/myinfoFragment"
+        android:icon="@drawable/ic_baseline_sentiment_satisfied_alt_24"
+        android:title="myinfo" />
+</menu>

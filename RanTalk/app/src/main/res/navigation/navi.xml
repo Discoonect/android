@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navi"
+    app:startDestination="@id/friendList_fragment">
+
+    <fragment
+        android:id="@+id/friendList_fragment"
+        android:name="com.sideproject.randtalk.FriendList_fragment"
+        android:label="fragment_friendlist"
+        tools:layout="@layout/fragment_friendlist" />
+    <fragment
+        android:id="@+id/talk_Fragment"
+        android:name="com.sideproject.randtalk.Talk_Fragment"
+        android:label="fragment_talk"
+        tools:layout="@layout/fragment_talk" />
+    <fragment
+        android:id="@+id/myinfoFragment"
+        android:name="com.sideproject.randtalk.MyinfoFragment"
+        android:label="fragment_myinfo"
+        tools:layout="@layout/fragment_myinfo" />
+</navigation>
